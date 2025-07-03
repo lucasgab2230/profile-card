@@ -75,7 +75,7 @@ body {
 
 .links__container {
   position: relative;
-  top: 40px;
+  top: 20px;
   display: flex;
   flex-direction: column;
 }
