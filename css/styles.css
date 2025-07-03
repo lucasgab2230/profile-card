@@ -1,0 +1,103 @@
+:root {
+  --primary-color: #1f652e;
+  --secondary-color: #1b3608;
+  --text-gray: #ccc;
+  --text-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.img__container {
+  position: relative;
+  top: -100px;
+}
+
+.img__container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+}
+
+.name__container {
+  position: relative;
+  top: -40px;
+}
+
+.name__container h1 {
+  color: var(--text-white);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.info__container {
+  position: relative;
+  top: -20px;
+}
+
+.info__container p {
+  color: var(--text-gray);
+  font-size: 20px;
+}
+
+.open-wine-scripts__link {
+  text-decoration: none;
+  color: var(--text-white);
+}
+
+.links__container {
+  position: relative;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links__container a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+  background-color: #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bi-github,
+.bi-youtube {
+  font-size: 20px;
+}
+
+.bi-github {
+  color: #333;
+}
+
+.bi-youtube {
+  color: #ff0000;
+}
