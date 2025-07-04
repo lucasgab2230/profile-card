@@ -40,8 +40,8 @@ body {
 }
 
 .img__container img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   display: flex;
   text-align: center;
