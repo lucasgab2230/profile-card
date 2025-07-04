@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  padding: 30px;
+  padding: 60px;
   background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
